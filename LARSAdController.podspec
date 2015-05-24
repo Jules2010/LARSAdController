@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, 5.0
   s.license = 'MIT'
   s.requires_arc = true
-  s.frameworks = 'CoreGraphics'
+  s.frameworks = 'CoreGraphics,Google-Mobile-Ads-SDK'
   
   s.subspec 'Core' do |core|
     core.source_files = 'Source/{LARSAdController,TOLAdViewController}.{h,m}','Source/TOLAdAdapter.h'
